@@ -2,28 +2,16 @@
 
 ## Requirements
 
-Install [Cookiecutter]:
+Install [pipx].
+
+Install required packages:
 
 ```console
-$ pipx install cookiecutter
-```
-
-Install [Poetry] by downloading and running [install-poetry.py]:
-
-```console
-$ python install-poetry.py
-```
-
-Install [Nox] and [nox-poetry]:
-
-```console
-$ pipx install nox
+$ pipx install cookiecutter poetry nox
 $ pipx inject nox nox-poetry
 ```
 
-[pipx] is preferred, but you can also install with `pip install --user`.
-
-It is recommended to set up Python 3.7, 3.8, 3.9, 3.10 using [pyenv].
+It is recommended to set up Python 3.8-3.12 using [pyenv] or [asdf].
 
 ## Creating a project
 
@@ -156,16 +144,15 @@ by applying labels to them, like this:
 
 <!-- table-release-drafter-sections-end -->
 
-[codecov]: https://codecov.io/
 [cookiecutter]: https://github.com/audreyr/cookiecutter
 [github]: https://github.com/
-[install-poetry.py]: https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py
 [nox]: https://nox.thea.codes/
 [nox-poetry]: https://nox-poetry.readthedocs.io/
 [pipx]: https://pipxproject.github.io/pipx/
 [poetry]: https://python-poetry.org/
 [poetry version]: https://python-poetry.org/docs/cli/#version
 [pyenv]: https://github.com/pyenv/pyenv
+[asdf]: https://asdf-vm.com/
 [pypi]: https://pypi.org/
 [read the docs]: https://readthedocs.org/
 [testpypi]: https://test.pypi.org/
