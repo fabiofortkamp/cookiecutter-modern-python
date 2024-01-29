@@ -1,11 +1,11 @@
 {
-  "project_name": "modern-python",
+  "project_name": "hypermodern-python",
   "package_name": "{{ cookiecutter.project_name.replace('-', '_') }}",
   "friendly_name": "{{ cookiecutter.project_name.replace('-', ' ').title() }}",
-  "author": "Fábio P. Fortkamp",
-  "email": "fabio@fabiofortkamp.com",
-  "github_user": "fabiofortkamp",
-  "version": "0.1.0",
+  "author": "Claudio Jolowicz",
+  "email": "mail@claudiojolowicz.com",
+  "github_user": "cjolowicz",
+  "version": "0.0.0",
   "copyright_year": "{% now 'utc', '%Y' %}",
   "license": ["MIT", "Apache-2.0", "GPL-3.0"],
   "development_status": [
